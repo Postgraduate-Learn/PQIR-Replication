@@ -1,0 +1,29 @@
+{
+        "so_url": "https://stackoverflow.com",
+        "so_dir": "E://Python//StackOverflow",
+        "experiment_dir": "E://Python//Code//Data//Experiment_1",
+        "post_xml": "Posts.xml",
+        "api_key": "sk-8JuV6qEuzhbCbxP8STGu1knPFiCXtayDGZEdwfzw5Hyarx7E",
+        "api_base_url": "https://api.chatanywhere.tech/v1",
+        "gpt_model": "gpt-4o",
+
+        "augmentation_sample_count": 5,
+        "min_sample_threshold": 20,
+        "sample_category_columns": ["Category_1", "Category_2", "Category_3"],
+        "augmentation_input_paths": [ "/home/codebase/FQF/Program/Data/train_data/sample_1_update.xlsx",
+                                      "/home/codebase/FQF/Program/Data/train_data/sample_2_update.xlsx",
+                                      "/home/codebase/FQF/Program/Data/train_data/sample_3_update.xlsx"
+                                    ],
+        "augmented_output_path": "/home/codebase/FQF/Program/Data/train_data/gpt_4o_augmented_data_5_20_category_2.xlsx",
+        "summarized_output_path": "/home/codebase/FQF/Program/complete_process/data/gpt4o_augmented_and_summarized_data.xlsx",
+
+        "train_data_paths": ["/home/codebase/FQF/Program/Data/train_data/gpt4o_augmented_data_5_20.xlsx"],
+        "train_model_path": "/home/codebase/FQF/Program/data_train/LLM/train_model/BGE-M3",
+        "train_output_path": "/home/codebase/FQF/Program/saved_model/BGE-M3/combined_text/output_dir",
+        "train_logging_dir": "/home/codebase/FQF/Program/saved_model/BGE-M3/combined_text/logs",
+        "model_save_path": "/home/codebase/FQF/Program/saved_model/BGE-M3/combined_text/model",
+        "error_data_path": "/home/codebase/FQF/Program/Data/test_data/classification_errors.xlsx",
+        "test_data_paths": ["/home/codebase/FQF/Program/Data/test_data/valid_data.xlsx"],
+        "predicted_file_path": "/home/codebase/FQF/Program/complete_process/data/predicted_labels.xlsx"
+
+}
